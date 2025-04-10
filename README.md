@@ -36,7 +36,10 @@ Needs internet + API key
 Console/Colab only (no GUI yet)
 
 🌱 Future Scope
+
 Add voice input/output
+
 Build full GUI using Streamlit/Gradio
+
 Memory support for multi-turn chats
 
