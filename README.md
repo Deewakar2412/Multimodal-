@@ -1,49 +1,36 @@
-# 🧠 AI-Powered Multimodal Conversational Intelligence System
+# 🤖 Gemini Flash Multimodal Chatbot
 
-This project is a practical implementation of a multimodal chatbot using **Google's Gemini 2.0 Flash model**, capable of understanding and generating responses from **text, image, or both**.
+An AI-powered chatbot that accepts **text**, **image**, or **both** as input and generates smart responses using **Google Gemini 2.0 Flash**.
 
----
-
-## 🚀 Features
-
-- 🔤 Accepts text input
-- 🖼️ Accepts image input (with upload interface)
-- 🧾 Combines both for context-rich queries
-- 📸 Displays image preview after upload
-- 🤖 Generates smart responses using Gemini 2.0 Flash
-- 📡 Built for Google Colab (interactive notebook)
-
----
-
-## 🧰 Technologies Used
-
+## 🔧 Technologies
 - Python
-- [Google Generative AI Python SDK](https://pypi.org/project/google-generativeai/)
-- PIL (Pillow) for image handling
-- IPyWidgets for interactive upload
+- Google Generative AI (Gemini Flash)
+- PIL (Pillow)
+- IPyWidgets (for image upload)
 - Google Colab (recommended)
 
----
+## 🚀 How to Run
+1. Open the notebook in Google Colab.
+2. Install dependencies:
+   ```python
+   !pip install google-generativeai
+3.Add your Gemini API key.
+4.Choose input type: text / image / both.
+5.Upload image (if needed), enter prompt, and get response.
 
-## 📸 Demo
+🧠 Features
+Accepts text + image
+Image upload widget
+Image preview in Colab
+Gemini-powered real-time answers
 
-https://colab.research.google.com/your-colab-link-here
+📉 Limitations
+No audio/video input
+Needs internet + API key
+Console/Colab only (no GUI yet)
 
----
+🌱 Future Scope
+Add voice input/output
+Build full GUI using Streamlit/Gradio
+Memory support for multi-turn chats
 
-## 🛠️ How to Run
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-2.Open in Google Colab
-3.Open the .ipynb notebook file in Google Colab for interactive usage.
-pip install google-generativeai Pillow
-4.Install dependencies Colab will automatically handle most dependencies. To install manually:
-Run the notebook and follow the prompts
-
-Choose input type (text / image / both)
-
-If image is selected, upload it using the UI
-
-Get the response from Gemini AI
