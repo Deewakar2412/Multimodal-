@@ -21,25 +21,25 @@ An AI-powered chatbot that accepts **text**, **image**, or **both** as input and
 🧠 Features
 Accepts text + image
 
-Image upload widget
+-Image upload widget
 
-Image preview in Colab
+-Image preview in Colab
 
-Gemini-powered real-time answers
+-Gemini-powered real-time answers
 
 📉 Limitations
 
-No audio/video input
+-No audio/video input
 
-Needs internet + API key
+-Needs internet + API key
 
-Console/Colab only (no GUI yet)
+-Console/Colab only (no GUI yet)
 
 🌱 Future Scope
 
-Add voice input/output
+-Add voice input/output
 
-Build full GUI using Streamlit/Gradio
+-Build full GUI using Streamlit/Gradio
 
-Memory support for multi-turn chats
+-Memory support for multi-turn chats
 
