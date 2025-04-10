@@ -28,8 +28,11 @@ Image preview in Colab
 Gemini-powered real-time answers
 
 📉 Limitations
+
 No audio/video input
+
 Needs internet + API key
+
 Console/Colab only (no GUI yet)
 
 🌱 Future Scope
