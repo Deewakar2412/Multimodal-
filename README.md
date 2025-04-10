@@ -20,8 +20,11 @@ An AI-powered chatbot that accepts **text**, **image**, or **both** as input and
 
 🧠 Features
 Accepts text + image
+
 Image upload widget
+
 Image preview in Colab
+
 Gemini-powered real-time answers
 
 📉 Limitations
